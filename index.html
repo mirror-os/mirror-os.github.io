@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirror OS - Linux, Simplified</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        .status {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #fef3c7;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .cta {
+            display: inline-block;
+            padding: 15px 40px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1em;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .cta:hover {
+            transform: translateY(-2px);
+        }
+        .secondary {
+            background: transparent;
+            border: 2px solid #667eea;
+            color: #667eea;
+        }
+        .newsletter {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+        }
+        input[type="email"] {
+            padding: 12px 20px;
+            border: 2px solid #ddd;
+            border-radius: 30px;
+            font-size: 1em;
+            width: 300px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mirror OS</h1>
+        <p class="status">🚧 In Development</p>
+        <p>A beginner-friendly Linux distribution based on Fedora Cosmic Atomic.<br>
+        Automatic updates. Beautiful design. Make it yours.</p>
+
+        <a href="https://github.com/mirror-os/main" class="cta">View on GitHub</a>
+        <a href="https://github.com/mirror-os/main/discussions" class="cta secondary">Join Discussion</a>
+
+        <div class="newsletter">
+            <h3>Get notified when we launch</h3>
+            <p>Sign up for updates on development progress and release announcements.</p>
+            <a href="https://tally.so/r/q4AyP7" target="_blank" class="cta">
+                Notify Me
+            </a>
+</div>
+    </div>
+</body>
+</html>
